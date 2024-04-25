@@ -9,7 +9,7 @@ const CANVAS_WIDTH = canvas.width = 600;
 const CANVAS_HEIGHT = canvas.height = 600;
 
 const player_image = new Image(); // image() is bulit in fun
-player_image.src = './images/shadow_dog.png';
+player_image.src = '/images/shadow_dog.png';
 
 let spritWidth = 575   // --> imageWidth / column = 6876 / 12 = 573 
 let spritHeight = 523   // --> imageHeight / row = 5230 / 10 = 523
